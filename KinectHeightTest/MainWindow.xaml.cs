@@ -39,6 +39,11 @@ namespace KinectHeightTest
         private int displayWidth;
         private int displayHeight;
         private List<Pen> bodyColors;
+        private List<Person> people;
+
+
+        Joint foot;
+        Joint head;
 
 
         public MainWindow()
@@ -101,7 +106,7 @@ namespace KinectHeightTest
             this.imageSource = new DrawingImage(this.drawingGroup);
 
             this.DataContext = this;
-
+            people = new List<Person>();            
 
             InitializeComponent();
         }
@@ -165,21 +170,17 @@ namespace KinectHeightTest
                         {
                             if (body.IsTracked)
                             {
+                                Person p = new Person();
+                                p.PersonID++;
+                                p.Height = p.GetHeight(foot, head, body);
 
-                                Joint foot = body.Joints[JointType.FootLeft];
-                                double footX = foot.Position.X;
-                                double footY = foot.Position.Y;
+                                people.Add(p);
 
-                                Joint head = body.Joints[JointType.Head];
-                                double headX = head.Position.X;
-                                double headY = head.Position.Y;
-
-                                double x2x1 = Math.Pow(headX - footX, 2);
-                                double y2y1 = Math.Pow(headY - footY, 2);
-                                double res = Math.Sqrt(x2x1 + y2y1);
-                                double feet = res * 3.2808;
-                                tblkHeight.Text = String.Format("Your height is {0:F} ft", feet);
-
+                                foreach (var pers in people)
+                                {
+                                    tblkHeight.Text = string.Format("This person is no {0} and their height is {1}\n", p.PersonID, p.Height.ToString());
+                                }
+                                
                             }
                         }
                     }
