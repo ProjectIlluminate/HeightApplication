@@ -1,0 +1,14 @@
+C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\bin\Debug\KinectHeightTest.exe.config
+C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\bin\Debug\KinectHeightTest.exe
+C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\bin\Debug\KinectHeightTest.pdb
+C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\obj\Debug\MainWindow.baml
+C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\obj\Debug\MainWindow.g.cs
+C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\obj\Debug\App.g.cs
+C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\obj\Debug\KinectHeightTest_MarkupCompile.cache
+C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\obj\Debug\KinectHeightTest.g.resources
+C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\obj\Debug\KinectHeightTest.Properties.Resources.resources
+C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\obj\Debug\KinectHeightTest.csproj.GenerateResource.Cache
+C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\obj\Debug\KinectHeightTest.exe
+C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\obj\Debug\KinectHeightTest.pdb
