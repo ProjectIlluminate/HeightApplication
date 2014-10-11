@@ -178,7 +178,10 @@ namespace KinectHeightTest
 
                                 foreach (var pers in people)
                                 {
+
+
                                     tblkHeight.Text = string.Format("This person is family member {0} and their height is {1}\n", p.PersonID, p.Height.ToString());
+
                                 }
                                 
                             }

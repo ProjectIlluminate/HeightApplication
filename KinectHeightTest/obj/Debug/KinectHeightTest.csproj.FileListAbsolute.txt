@@ -12,3 +12,4 @@ C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\obj\Debug\KinectH
 C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\obj\Debug\KinectHeightTest.csproj.GenerateResource.Cache
 C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\obj\Debug\KinectHeightTest.exe
 C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\obj\Debug\KinectHeightTest.pdb
+C:\Users\Paul\Desktop\Kinect\KinectHeightTest\KinectHeightTest\obj\Debug\KinectHeightTest.csprojResolveAssemblyReference.cache
